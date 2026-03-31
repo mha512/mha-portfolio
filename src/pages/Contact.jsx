@@ -18,14 +18,14 @@ const socials = [
 const services = ['SAP ABAP / Crystal Reports', 'Android App Development', 'Full Stack Web (Django + Next.js)', 'eBay / Etsy VA Services', 'Thumbnail & AI Design', 'SMM Services', 'Other']
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: '', email: '', service: '', message: '' })
+  const [form, setForm] = useState({ name: '', gmail: '', service: '', message: '' })
   const [status, setStatus] = useState(null)
   const [errors, setErrors] = useState({})
 
   const validate = () => {
     const e = {}
     if (!form.name.trim()) e.name = 'Name is required'
-    if (!form.email.trim() || !/\S+@\S+\.\S+/.test(form.email)) e.email = 'Valid email required'
+    if (!form.email.trim() || !/\S+@\S+\.\S+/.test(form.gmail)) e.email = 'Valid email required'
     if (!form.message.trim()) e.message = 'Message is required'
     setErrors(e)
     return Object.keys(e).length === 0
