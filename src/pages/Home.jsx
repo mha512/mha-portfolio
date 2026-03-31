@@ -85,7 +85,7 @@ export default function Home() {
           <div className="hero__actions afu d5">
             <Link to="/projects" className="btn">View Projects →</Link>
             <Link to="/contact" className="btn-ghost">Get In Touch</Link>
-            <a href="/cv.pdf" className="btn-ghost" download>Download CV</a>
+            <a href="/HashaamCV.pdf" className="btn-ghost" download>Download CV</a>
           </div>
 
           <div className="hero__scroll afu d6">
