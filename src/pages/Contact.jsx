@@ -10,9 +10,9 @@ const info = [
 ]
 
 const socials = [
-  { name: 'GitHub', handle: '@muhammadHashaam', url: 'https://github.com' },
-  { name: 'LinkedIn', handle: 'Muhammad Hashaam Ahmad', url: 'https://linkedin.com' },
-  { name: 'Twitter', handle: '@MHashaamAhmad', url: 'https://twitter.com' },
+  { name: 'GitHub', handle: '@muhammadHashaam', url: 'https://github.com/mha512' },
+  { name: 'LinkedIn', handle: 'Muhammad Hashaam Ahmad', url: 'https://www.linkedin.com/in/muhammad-hashaam-ahmad-148398315/' },
+  { name: 'Twitter', handle: '@MHashaamAhmad', url: 'https://x.com/hashaam37?s=21' },
 ]
 
 const services = ['SAP ABAP / Crystal Reports', 'Android App Development', 'Full Stack Web (Django + Next.js)', 'eBay / Etsy VA Services', 'Thumbnail & AI Design', 'SMM Services', 'Other']
