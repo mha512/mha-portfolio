@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './Contact.css'
 
 const info = [
-  { label: 'Email', value: 'hashaamahmad6@gmail.com', href: 'mailto:hashaam.ahmad@email.com' },
+  { label: 'Email', value: 'hashaamahmad6@gmail.com', href: 'mailto:hashaamahmad6@email.com' },
   { label: 'Location', value: 'Lahore, Punjab, Pakistan', href: null },
-  { label: 'Phone', value: '+92 XXX XXXXXXX', href: 'tel:+92XXXXXXXXX' },
+  { label: 'Phone', value: '+92 321 1903516', href: 'tel:+92XXXXXXXXX' },
   { label: 'Availability', value: '✓ Immediately Available', href: null, green: true },
   { label: 'Looking For', value: 'SAP / Android / Web Dev Roles', href: null, green: true },
 ]
@@ -106,7 +106,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <h3 className="ct-success__title">Message Sent!</h3>
-                <p className="ct-success__sub">Shukria! I'll respond within 24 hours. Looking forward to connecting with you.</p>
+                <p className="ct-success__sub">ThankYou! I'll respond within 24 hours. Looking forward to connecting with you.</p>
                 <button onClick={() => setStatus(null)} className="btn" style={{ marginTop: '24px' }}>Send Another →</button>
               </div>
             ) : (
