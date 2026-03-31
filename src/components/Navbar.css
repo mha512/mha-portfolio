@@ -20,9 +20,15 @@
 .nav__logo:hover { opacity: 0.8; }
 .nav__logo-text { display: flex; flex-direction: column; }
 .nav__name {
+  font-family: var(--display); font-size: 13px; font-weight: 700;
+  color: var(--white); letter-spacing: -0.01em; line-height: 1.2;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  max-width: 180px;
+}
+/* .nav__name {
   font-family: var(--display); font-size: 15px; font-weight: 700;
   color: var(--white); letter-spacing: -0.01em; line-height: 1.2;
-}
+} */
 .nav__title {
   font-family: var(--mono); font-size: 9px; color: var(--green);
   letter-spacing: 0.2em; text-transform: uppercase;
