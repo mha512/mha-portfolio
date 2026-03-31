@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Contact.css'
 
 const info = [
-  { label: 'Email', value: 'hashaam.ahmad@email.com', href: 'mailto:hashaam.ahmad@email.com' },
+  { label: 'Email', value: 'hashaamahmad6@gmail.com', href: 'mailto:hashaam.ahmad@email.com' },
   { label: 'Location', value: 'Lahore, Punjab, Pakistan', href: null },
   { label: 'Phone', value: '+92 XXX XXXXXXX', href: 'tel:+92XXXXXXXXX' },
   { label: 'Availability', value: '✓ Immediately Available', href: null, green: true },
